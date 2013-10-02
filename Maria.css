@@ -1,0 +1,52 @@
+html {
+    background-color: #F0F0F0  ;
+    font-family:sans-serif;
+}
+
+h1 {
+    font-size:72px;
+    line-height: 50%;
+    text-align:center;
+    color:  #A0A0A0	;
+}
+
+#todoBucket {
+    width: 100%;
+    height:auto;
+    padding: 0%;
+    margin: 0%;
+    border-top: 20px solid black;   
+}
+.todoContainers {
+    width:100%;
+}
+.checkbox {
+    heigh18t:auto;
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 1%;
+    border: 1px solid black;
+    width: 9%;
+}
+.textbox {
+    height:auto;
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 1%;
+    font-style:italic;
+    border:1px solid black;
+    border-left: 6px double red;
+    width: 85.5%;
+}
+.checkbox:before {
+    content : "X";
+}
+#info {
+    font-family: serif;
+    font-size: 18px;
+    text-align: center;
+    color: #A0A0A0	;
+    line-height: 100%;
+}
