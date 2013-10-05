@@ -18,10 +18,11 @@ h1 {
     border-top: 20px solid black;   
 }
 .todoContainers {
+    overflow:hidden;
     width:100%;
 }
 .checkbox {
-    heigh18t:auto;
+    min-height:20px;
     display: block;
     float: left;
     margin: 0px;
@@ -40,9 +41,7 @@ h1 {
     border-left: 6px double red;
     width: 85.5%;
 }
-.checkbox:before {
-    content : "X";
-}
+
 #info {
     font-family: serif;
     font-size: 18px;
