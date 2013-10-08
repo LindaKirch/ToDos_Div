@@ -1,0 +1,64 @@
+html {
+    background-color: #F0F0F0  ;
+    font-family:sans-serif;
+}
+
+h1 {
+    line-height: 50%;
+    text-align:center;
+    color:  #A0A0A0	;
+}
+
+#todoBucket {
+    width: 100%;
+    height:auto;
+    padding: 0%;
+    margin: 0%;
+    border-top: 20px solid black;   
+}
+.todoContainers {
+    overflow:hidden;
+    width:100%;
+}
+.checkbox {
+    min-height:20px;
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 1%;
+    border: 1px solid black;
+    width: 9%;
+}
+
+.form-group {
+    height:auto;
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 1%;
+    font-style:italic;
+    border:1px solid black;
+    border-left: 6px double red;
+    width: 85.5%;
+}
+
+
+.textbox {
+    height:auto;
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 1%;
+    font-style:italic;
+    border:1px solid black;
+    border-left: 6px double red;
+    width: 85.5%;
+}
+
+#info {
+    font-family: serif;
+    font-size: 18px;
+    text-align: center;
+    color: #A0A0A0	;
+    line-height: 100%;
+}
